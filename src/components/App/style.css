@@ -1,0 +1,23 @@
+.page-wrapper {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.words-form {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.words-input {
+  min-width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-for-inline {
+  font-size: 14px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.input-for-inline input { cursor: inherit; }

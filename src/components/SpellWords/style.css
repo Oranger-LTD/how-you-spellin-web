@@ -1,0 +1,33 @@
+.spellword-list {
+  text-align: left;
+  list-style: none;
+  max-width: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.spellword-list-item {
+  padding: 10px;
+  height: 38px;
+  letter-spacing: 0.6px;
+}
+
+.spellword-list--inline {
+  text-align: center;
+  max-width: 100%;
+  padding: 0;
+}
+
+.spellword-list-item--break { color: #777; }
+
+.spellword-list-item__order-no {
+  color: #777;
+  font-size: 0.5em;
+}
+
+.spellword-list--inline .spellword-list-item {
+  display: inline-block;
+  padding: 5px;
+}
+
+.spellword-list--inline .spellword-list-item--break { display: block; }

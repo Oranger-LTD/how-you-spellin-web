@@ -1,0 +1,19 @@
+.page-made-by {
+  font-size: 12px;
+  padding: 7px;
+  color: #333;
+  text-align: right;
+}
+
+.page-made-by a {
+  color: #e07d13;
+  text-decoration: none;
+}
+
+.page-made-by a:hover { text-decoration: underline; }
+
+.heart-ascii {
+  color: red;
+  color: #ce2029;
+  font-family: consolas, "Liberation Mono", courier, monospace;
+}
