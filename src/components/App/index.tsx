@@ -19,7 +19,11 @@ export const App: React.FC = () => {
   return (
     <div className="page-wrapper">
       <h1>How you spellin?</h1>
-      <p>Convert text to spell words using NATO phonetic alphabet</p>
+      <p>
+        Convert text to spell words using the
+        <br />
+        <em>International Radiotelephony Spelling Alphabet</em>
+      </p>
       <form className="words-form">
         <textarea
           className="words-input"
