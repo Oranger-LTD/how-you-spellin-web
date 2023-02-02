@@ -10,12 +10,12 @@ export const MadeBy: React.FC = () => (
     </span>{" "}
     by{" "}
     <a
-      title="Oranger LTD"
+      title="Kostas"
       target="_blank"
       rel="noreferrer"
-      href="https://oranger.co.uk"
+      href="https://kostas.rocks"
     >
-      oranger
+      Kostas
     </a>
   </div>
 );

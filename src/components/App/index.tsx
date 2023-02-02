@@ -4,11 +4,12 @@ import "./style.css";
 
 import { replaceCharWithSpellWord } from "../../utils";
 import { SpellWords } from "../SpellWords";
+import { Menu } from "../Menu";
 
 export const App: React.FC = () => {
   const queryString = window?.location?.search;
   const params = new URLSearchParams(queryString || "");
-  const presetText = params.get("text") || "RONCTTLA";
+  const presetText = params.get("text") || "";
   const [text, setText] = useState<string>(presetText);
   const [isInline, setIsInline] = useState<boolean>(false);
   /* @ts-ignore */
@@ -18,6 +19,7 @@ export const App: React.FC = () => {
 
   return (
     <div className="page-wrapper">
+      <Menu />
       <h1>How you spellin?</h1>
       <p>
         Convert text to spell words using the

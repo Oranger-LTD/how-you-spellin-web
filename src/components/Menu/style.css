@@ -1,0 +1,24 @@
+.page-menu {
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.page-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page-menu li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.page-menu a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.page-menu a:hover {
+    text-decoration: underline;
+} 

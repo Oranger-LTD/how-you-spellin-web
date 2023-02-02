@@ -1,16 +1,36 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import { App } from "./components/App";
+import { About } from "./components/About";
+import { PrivacyPolicy } from "./components/PrivacyPolicy";
+
+import "./index.css";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/about/privacy-policy",
+    element: <PrivacyPolicy />,
+  },
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
