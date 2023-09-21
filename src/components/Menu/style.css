@@ -21,4 +21,14 @@
 }
 .page-menu a:hover {
     text-decoration: underline;
-} 
+}
+
+@media (prefers-color-scheme: dark) {
+    .page-menu {
+        border-bottom-color: rgba(255,255,255,0.1);
+    }
+    
+    .page-menu a {
+      color: #AAAAAA;
+    }
+  }

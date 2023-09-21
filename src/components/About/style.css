@@ -3,3 +3,9 @@
     max-width: 500px;
     margin: 0 auto;
 }
+
+@media (prefers-color-scheme: dark) {
+    a {
+      color: #4F4FB0;
+    }
+  }

@@ -10,3 +10,10 @@ body {
   background-color: #eaeaea;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eaeaea;
+    background-color: #1B1B1D;
+  }
+}

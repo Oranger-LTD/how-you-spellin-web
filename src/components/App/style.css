@@ -12,6 +12,11 @@
 .words-input {
   min-width: 100%;
   margin-bottom: 10px;
+  border-width: 1px;
+  border-color: #333;
+  border-radius: 3px;
+  box-shadow: none;
+  border-style: solid;
 }
 
 .input-for-inline {
@@ -21,3 +26,10 @@
 }
 
 .input-for-inline input { cursor: inherit; }
+
+@media (prefers-color-scheme: dark) {
+  .words-input {
+    color: #eaeaea;
+    background-color: #0C0D0E;
+  }
+}
